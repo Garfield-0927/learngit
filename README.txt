@@ -1,2 +1,1 @@
-lbw NB!!
-QTQL!!
+lbw NB！！！！
