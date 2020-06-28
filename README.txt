@@ -41,6 +41,18 @@
 	##下一步，就可以把本地库的所有内容推送到远程库上
 	$ git remote add origin git@github.com:你的名字/库的名字.git
 	$ git push -u origin master
+	##本地做修改后，通过下面的命令把最新修改更新至github的repo
+	$ git push origin master
 
+##clone repo from github.com
+	$ git clone git@github.com:名字/repo的名字.git
+
+##branch
+	查看分支：$ git branch
+	创建分支：$ git branch <name>
+	切换分支：$ git switch <name>
+	创建+切换分支：$ git switch -c <name>
+	合并某分支到当前分支：$ git merge <name>
+	删除分支：$ git branch -d <name>
 
 
